@@ -320,9 +320,6 @@ section {
   cursor: pointer;
 }
 
-offer-card-item {
-}
-
 .hero-container {
   display: flex;
   flex-direction: column;
@@ -338,6 +335,7 @@ offer-card-item {
 .footer-card {
   display: flex;
   flex-direction: column;
+  margin-left: -127px;
 }
 
 .filter-section {
