@@ -87,6 +87,7 @@
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  word-spacing: -9px;
 }
 
 .logo .iris-blue {
@@ -141,6 +142,9 @@ h3 {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)),
+    url("../images/hero-bkg-image.jpg");
+  height: 600px;
 }
 
 .hero-section > h1 {
@@ -334,7 +338,6 @@ section {
 .footer-card {
   display: flex;
   flex-direction: column;
-  margin-left: -127px;
 }
 
 .filter-section {
@@ -374,4 +377,7 @@ section {
   align-items: center;
   margin-bottom: 8px;
 }
-/* background: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url("./images/slider.jpg"); */
+
+.social-media-card {
+  margin-left: 120px;
+}
