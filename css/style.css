@@ -363,4 +363,15 @@ section {
   justify-content: center;
   align-items: center;
 }
+
+.features-icon-list {
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: var(--secondary-bkg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
 /* background: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url("./images/slider.jpg"); */
