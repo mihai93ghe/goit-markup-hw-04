@@ -172,6 +172,11 @@ h3 {
   flex-wrap: wrap;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .feature-section {
   display: flex;
   justify-content: center;
@@ -400,4 +405,9 @@ h3 {
   display: flex;
   justify-content: center;
   gap: 24px;
+}
+
+.footer-section .container {
+  display: flex;
+  justify-content: flex-start;
 }
