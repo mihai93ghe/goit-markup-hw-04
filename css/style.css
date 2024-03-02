@@ -11,6 +11,8 @@
   --hero-heading-color: #ffffff;
   --icon-fill-color: #4d5ae5;
   --icon-border-color: #8e8f99;
+  --social-media-icons-hover: #404bbf;
+  --customers-icons-hover: #404bbf;
 }
 
 *,
@@ -410,4 +412,14 @@ h3 {
 .footer-section .container {
   display: flex;
   justify-content: flex-start;
+}
+
+.customers-icon-list .customers-icon:hover,
+.customers-icon:focus {
+  color: var(--customers-icons-hover);
+}
+
+.icons-list .icon:hover,
+.icon:active {
+  fill: var(--social-media-icons-hover);
 }
