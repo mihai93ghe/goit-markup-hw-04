@@ -278,10 +278,7 @@ h3 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.offer-images > img {
-  padding-left: 24px;
+  gap: 24px;
   padding-top: 72px;
 }
 
