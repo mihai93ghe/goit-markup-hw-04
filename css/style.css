@@ -423,7 +423,6 @@ h3 {
   color: var(--customers-icons-hover);
 }
 
-.icons-list .icon:hover,
-.icon:active {
-  fill: var(--social-media-icons-hover);
+.icons-list .icon:hover {
+  color: var(--social-media-icons-hover);
 }
