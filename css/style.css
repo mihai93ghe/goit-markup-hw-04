@@ -157,6 +157,10 @@ h3 {
   width: 204px;
 }
 
+.hero-section .container {
+  gap: 48px;
+}
+
 .team-section {
   display: flex;
   justify-content: center;
