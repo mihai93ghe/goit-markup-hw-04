@@ -427,3 +427,11 @@ h3 {
 .icon:active {
   color: var(--social-media-icons-hover);
 }
+
+.icon:visited {
+  color: currentColor;
+}
+
+.customers-icon:visited {
+  color: currentColor;
+}
