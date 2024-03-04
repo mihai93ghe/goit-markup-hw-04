@@ -419,12 +419,14 @@ h3 {
 }
 
 .customers-icon-list .customers-icon:hover,
-.customers-icon:active {
+.customers-icon:active,
+.customers-icon:focus {
   color: var(--customers-icons-hover);
 }
 
 .icons-list .icon:hover,
-.icon:active {
+.icon:active,
+.icon:focus {
   color: var(--social-media-icons-hover);
 }
 
